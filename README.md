@@ -1,35 +1,5 @@
-# alpha-lang.el - a major mode and flycheck integration for CSE 443
-
-## Installation
-To install this package in emacs, include it as you would any other
-package from github. Examples on how to do this are below.
-
-### use-package
-use-package is available at https://github.com/jwiegley/use-package.
-
-In your terminal, clone this repo:
-
-```shell
-mkdir ~/.emacs.d/lisp/
-cd ~/.emacs.d/lisp/
-git clone git@github.com:PeterGottesman/alpha-lang
-```
-
-In your `~/.emacs.d/init.el` add:
-
-```lisp
-(use-package alpha-lang
-	:load-path "lisp/alpha-lang/")
-```
-
-### el-get
-el-get is available at https://github.com/dimitri/el-get
-
-In your `~/.emacs.d/init.el` add:
-
-```lisp
-(el-get-bundle PeterGottesman/alpha-lang)
-``` 
+# alpha-lang.el
+a major mode and flycheck integration for CSE 443
 
 ## Usage
 This package expects to find the compiler for alpha in your system
@@ -55,3 +25,34 @@ I often get things wrong, I wrote this package two years ago, and I am
 writing this README off of memory, so please let me know if I got
 something wrong, or if the assignment is updated in a way that makes
 this incompatible.
+
+## Installation
+To install this package in emacs, include it as you would any other
+package from github. Examples on how to do this are below.
+
+### use-package
+use-package is available at https://github.com/jwiegley/use-package.
+
+In your terminal, clone this repo:
+
+```shell
+mkdir ~/.emacs.d/lisp/
+cd ~/.emacs.d/lisp/
+git clone git@github.com:PeterGottesman/alpha-lang.git
+```
+
+In your `~/.emacs.d/init.el` add:
+
+```lisp
+(use-package alpha-lang
+	:load-path "lisp/alpha-lang/")
+```
+
+### el-get
+el-get is available at https://github.com/dimitri/el-get
+
+In your `~/.emacs.d/init.el` add:
+
+```lisp
+(el-get-bundle PeterGottesman/alpha-lang)
+```
